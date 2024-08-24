@@ -1,0 +1,49 @@
+body,
+html {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(190, 190, 190);
+  font-family: "Kanit", sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+.leaflet-div-icon {
+  background: none;
+  border: none;
+}
+.leaflet-div-icon div {
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+#scrapeButton {
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  z-index: 1000;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #002a57;
+  border: none;
+  color: white;
+}
+
+#scrapeButton:hover {
+  background-color: #007bff;
+  transition: 50ms;
+}
+
+#btn_section {
+  display: flex;
+  justify-content: center;
+}
+
+.leaflet-marker-icon {
+  border-radius: 8px;
+}
