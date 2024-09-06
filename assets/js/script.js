@@ -34,7 +34,7 @@ async function loadStopData() {
       pointToLayer: (feature, latlng) => {
         // Personnaliser l'apparence des marqueurs d'arrêt
         return L.circleMarker(latlng, {
-          radius: 7,
+          radius: 6,
           fillColor: "red",
           color: "#000",
           weight: 1,
@@ -69,7 +69,6 @@ function toggleStops() {
 // Fonction pour charger les données des bus et les afficher sur la carte
 async function loadBusData() {
   try {
-    // Charger les données JSON des bus depuis un fichier local
     const response = await fetch("/scrapedData.json");
     if (!response.ok) {
       throw new Error("Erreur de réseau lors du chargement des données.");
@@ -80,30 +79,31 @@ async function loadBusData() {
     // Vider les marqueurs de bus existants avant d'ajouter les nouveaux
     busMarkersLayer.clearLayers();
 
-    // Traductions des statuts des bus en français pour l'affichage
     const statusTranslations = {
       IN_TRANSIT_TO: "En transit",
       STOPPED_AT: "Arrêté",
       INCOMING_AT: "En approche",
     };
 
-    // Parcourir chaque entité de bus et ajouter un marqueur pour chaque bus avec ses informations
     data.content.entity.forEach((bus) => {
       if (bus.vehicle && bus.vehicle.position) {
         const { latitude, longitude, speed } = bus.vehicle.position;
         const currentStatus = bus.vehicle.current_status;
         const stopId = bus.vehicle.stop_id;
 
-        // Vérifier que les coordonnées du bus existent
         if (latitude && longitude) {
-          let routeIcon = "assets/img/bus_icon.png"; // Icône par défaut pour le bus
-          if (bus.vehicle.trip && bus.vehicle.trip.route_id) {
-            routeIcon = `assets/img/${bus.vehicle.trip.route_id}.png`; // Icône spécifique à la ligne de bus
-          }
+          // Définir une icône par défaut
+          let defaultIconUrl = "assets/img/bus_icon.png";
 
-          // Créer une icône de marqueur pour le bus avec l'image de la ligne
-          const icon = L.icon({
-            iconUrl: routeIcon,
+          // Vérifier s'il existe une icône spécifique pour la ligne du bus
+          let routeIconUrl =
+            bus.vehicle.trip && bus.vehicle.trip.route_id
+              ? `assets/img/${bus.vehicle.trip.route_id}.png`
+              : defaultIconUrl;
+
+          // Créer une icône de marqueur pour le bus
+          let icon = L.icon({
+            iconUrl: routeIconUrl,
             iconSize: [30, 30], // Taille de l'icône
             iconAnchor: [15, 15], // Point d'ancrage de l'icône
             popupAnchor: [0, -15], // Position de l'info-bulle
@@ -121,19 +121,34 @@ async function loadBusData() {
           // Récupérer le nom de l'arrêt à partir de l'ID de l'arrêt
           const stopName = stops[stopId] || "Inconnu";
 
-          // Ajouter le marqueur du bus sur la couche de groupe des bus avec ses informations
-          L.marker([latitude, longitude], { icon })
+          // Ajouter le marqueur du bus avec une gestion d'erreur sur l'image
+          const busMarker = L.marker([latitude, longitude], { icon })
             .addTo(busMarkersLayer)
             .bindPopup(
               `<b>Bus ID:</b> ${bus.id}<br><b>Ligne:</b> ${
                 bus.vehicle.trip ? bus.vehicle.trip.route_id : "Non attribué"
               }<br><b>Vitesse:</b> ${speedText}<br><b>Statut:</b> ${statusText}<br><b>Prochain arrêt:</b> ${stopName}`
             );
+
+          // Ajouter une gestion d'erreur pour fallback à l'icône par défaut
+          const busIconImg = new Image();
+          busIconImg.src = routeIconUrl;
+          busIconImg.onerror = function () {
+            // Si l'icône spécifique ne se charge pas, on passe à l'icône par défaut
+            icon = L.icon({
+              iconUrl: defaultIconUrl,
+              iconSize: [30, 30], // Taille de l'icône
+              iconAnchor: [15, 15], // Point d'ancrage de l'icône
+              popupAnchor: [0, -15], // Position de l'info-bulle
+            });
+
+            // Mettre à jour l'icône du marqueur après l'échec de chargement
+            busMarker.setIcon(icon);
+          };
         }
       }
     });
   } catch (error) {
-    // Afficher une erreur dans la console si le chargement des données des bus échoue
     console.error("Erreur de chargement des données des bus: ", error);
   }
 }
