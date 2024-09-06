@@ -34,7 +34,7 @@ async function loadStopData() {
       pointToLayer: (feature, latlng) => {
         // Personnaliser l'apparence des marqueurs d'arrêt
         return L.circleMarker(latlng, {
-          radius: 5,
+          radius: 7,
           fillColor: "red",
           color: "#000",
           weight: 1,
