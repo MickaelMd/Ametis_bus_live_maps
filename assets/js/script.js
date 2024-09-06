@@ -1,4 +1,4 @@
-// Initialiser la carte avec le centre (latitude et longitude) et le niveau de zoom initial
+// Initialiser la carte avec le centre (latitude et longitude) et le niveau de zoom initial.
 const map = L.map("map").setView([49.884287, 2.309166], 13);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
