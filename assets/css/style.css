@@ -46,7 +46,23 @@ html {
   border: none;
   color: white;
 }
-#stopbus img {
+
+#posgps {
+  position: absolute;
+  text-align: center;
+  right: 30px;
+  bottom: 100px;
+  z-index: 1000;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #002a57;
+  border: none;
+  color: white;
+}
+
+#stopbus img,
+#posgps img {
   width: 30px;
   height: 30px;
   filter: invert(1);
