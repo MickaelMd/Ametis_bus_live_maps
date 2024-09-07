@@ -66,6 +66,14 @@ function toggleStops() {
   }
 }
 
+// Déclaration d'une variable pour stocker les données des bus récupérées précédemment
+let previousBusData = null;
+
+// Fonction pour comparer deux jeux de données
+function areBusDataEqual(newData, oldData) {
+  return JSON.stringify(newData) === JSON.stringify(oldData);
+}
+
 // Fonction pour charger les données des bus et les afficher sur la carte
 async function loadBusData() {
   try {
@@ -74,6 +82,13 @@ async function loadBusData() {
       throw new Error("Erreur de réseau lors du chargement des données.");
     }
     const data = await response.json();
+
+    // Comparer les nouvelles données avec les précédentes
+    if (previousBusData && areBusDataEqual(data, previousBusData)) {
+      console.log("Les données sont identiques, pas besoin de mettre à jour.");
+      return; // Ne pas continuer si les données n'ont pas changé
+    }
+
     console.log(`Nombre total de bus : ${data.content.entity.length}`);
 
     // Vider les marqueurs de bus existants avant d'ajouter les nouveaux
@@ -92,64 +107,76 @@ async function loadBusData() {
         const stopId = bus.vehicle.stop_id;
 
         if (latitude && longitude) {
-          // Définir une icône par défaut
           let defaultIconUrl = "assets/img/bus_icon.png";
-
-          // Vérifier s'il existe une icône spécifique pour la ligne du bus
           let routeIconUrl =
             bus.vehicle.trip && bus.vehicle.trip.route_id
               ? `assets/img/${bus.vehicle.trip.route_id}.png`
               : defaultIconUrl;
 
-          // Créer une icône de marqueur pour le bus
           let icon = L.icon({
             iconUrl: routeIconUrl,
-            iconSize: [30, 30], // Taille de l'icône
-            iconAnchor: [15, 15], // Point d'ancrage de l'icône
-            popupAnchor: [0, -15], // Position de l'info-bulle
+            iconSize: [30, 30],
+            iconAnchor: [15, 15],
+            popupAnchor: [0, -15],
           });
 
-          // Vérifier si la vitesse est définie et valide
-          let speedText = "Inconnu";
-          if (speed != null) {
-            speedText = Math.floor(speed * 3.6) + " km/h"; // Conversion de m/s à km/h
-          }
-
-          // Traduire le statut du bus en français
+          let speedText =
+            speed != null ? Math.floor(speed * 3.6) + " km/h" : "Inconnu";
           const statusText = statusTranslations[currentStatus] || "Inconnu";
-
-          // Récupérer le nom de l'arrêt à partir de l'ID de l'arrêt
           const stopName = stops[stopId] || "Inconnu";
 
-          // Ajouter le marqueur du bus avec une gestion d'erreur sur l'image
+          const currentTimestamp = Math.floor(Date.now() / 1000);
+          const busTimestamp = parseInt(bus.vehicle.timestamp, 10);
+          let delayMinutes = Math.floor((currentTimestamp - busTimestamp) / 60);
+          let delayText =
+            delayMinutes > 1
+              ? `${delayMinutes} minutes de retard`
+              : "À l'heure";
+
           const busMarker = L.marker([latitude, longitude], { icon })
             .addTo(busMarkersLayer)
             .bindPopup(
               `<b>Bus ID:</b> ${bus.id}<br><b>Ligne:</b> ${
                 bus.vehicle.trip ? bus.vehicle.trip.route_id : "Non attribué"
-              }<br><b>Vitesse:</b> ${speedText}<br><b>Statut:</b> ${statusText}<br><b>Prochain arrêt:</b> ${stopName}`
+              }<br><b>Vitesse:</b> ${speedText}<br><b>Statut:</b> ${statusText}<br><b>Prochain arrêt:</b> ${stopName}<br><b>Retard estimé:</b> ${delayText}`
             );
 
-          // Ajouter une gestion d'erreur pour fallback à l'icône par défaut
           const busIconImg = new Image();
           busIconImg.src = routeIconUrl;
           busIconImg.onerror = function () {
-            // Si l'icône spécifique ne se charge pas, on passe à l'icône par défaut
             icon = L.icon({
               iconUrl: defaultIconUrl,
-              iconSize: [30, 30], // Taille de l'icône
-              iconAnchor: [15, 15], // Point d'ancrage de l'icône
-              popupAnchor: [0, -15], // Position de l'info-bulle
+              iconSize: [30, 30],
+              iconAnchor: [15, 15],
+              popupAnchor: [0, -15],
             });
-
-            // Mettre à jour l'icône du marqueur après l'échec de chargement
             busMarker.setIcon(icon);
           };
         }
       }
     });
+
+    // Stocker les nouvelles données comme étant les données précédentes
+    previousBusData = data;
   } catch (error) {
     console.error("Erreur de chargement des données des bus: ", error);
+  }
+}
+
+// Fonction pour effectuer le scraping des données des bus et les charger
+async function scrapeContent() {
+  try {
+    const response = await fetch("/scrape");
+    if (!response.ok) {
+      throw new Error("Erreur lors du scraping.");
+    }
+
+    const data = await response.json();
+
+    // Charger les nouvelles données des bus après le scraping
+    await loadBusData();
+  } catch (error) {
+    console.error("Erreur lors du scraping des données: ", error);
   }
 }
 
