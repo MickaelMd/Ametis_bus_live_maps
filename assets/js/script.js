@@ -75,6 +75,9 @@ function areBusDataEqual(newData, oldData) {
 }
 
 // Fonction pour charger les données des bus et les afficher sur la carte
+// Fonction pour charger les données des bus et les afficher sur la carte
+let busMarkers = {}; // Stocker les marqueurs de bus par ID
+
 async function loadBusData() {
   try {
     const response = await fetch("/scrapedData.json");
@@ -93,6 +96,7 @@ async function loadBusData() {
 
     // Vider les marqueurs de bus existants avant d'ajouter les nouveaux
     busMarkersLayer.clearLayers();
+    busMarkers = {}; // Réinitialiser les marqueurs de bus
 
     const statusTranslations = {
       IN_TRANSIT_TO: "En transit",
@@ -127,19 +131,28 @@ async function loadBusData() {
 
           const currentTimestamp = Math.floor(Date.now() / 1000);
           const busTimestamp = parseInt(bus.vehicle.timestamp, 10);
-          let delayMinutes = Math.floor((currentTimestamp - busTimestamp) / 60);
-          let delayText =
-            delayMinutes > 1
-              ? `${delayMinutes} minutes de retard`
-              : "À l'heure";
+          let timeDifference = currentTimestamp - busTimestamp;
 
+          // Calculer les minutes et secondes écoulées
+          let minutes = Math.floor(timeDifference / 60);
+          let seconds = timeDifference % 60;
+
+          let delayText = `Dernière mise à jour : ${minutes} min ${seconds} sec`;
+
+          // Créer le marqueur et stocker les informations du bus
           const busMarker = L.marker([latitude, longitude], { icon })
             .addTo(busMarkersLayer)
             .bindPopup(
               `<b>Bus ID:</b> ${bus.id}<br><b>Ligne:</b> ${
                 bus.vehicle.trip ? bus.vehicle.trip.route_id : "Non attribué"
-              }<br><b>Vitesse:</b> ${speedText}<br><b>Statut:</b> ${statusText}<br><b>Prochain arrêt:</b> ${stopName}<br><b>Retard estimé:</b> ${delayText}`
+              }<br><b>Vitesse:</b> ${speedText}<br><b>Statut:</b> ${statusText}<br><b>Prochain arrêt:</b> ${stopName}<br><b>${delayText}</b>`
             );
+
+          // Stocker le timestamp et le marqueur pour chaque bus
+          busMarkers[bus.id] = {
+            marker: busMarker,
+            timestamp: busTimestamp,
+          };
 
           const busIconImg = new Image();
           busIconImg.src = routeIconUrl;
@@ -158,10 +171,73 @@ async function loadBusData() {
 
     // Stocker les nouvelles données comme étant les données précédentes
     previousBusData = data;
+
+    // Mettre à jour l'heure de la dernière mise à jour
+    const lastUpdate = new Date();
+    const formattedUpdateTime = lastUpdate.toLocaleTimeString();
+    // Ne plus utiliser document.getElementById("lastUpdateTime")
   } catch (error) {
     console.error("Erreur de chargement des données des bus: ", error);
   }
 }
+
+// Fonction pour mettre à jour l'affichage du temps écoulé en temps réel
+function updateBusTimestamps() {
+  const currentTimestamp = Math.floor(Date.now() / 1000);
+
+  Object.keys(busMarkers).forEach((busId) => {
+    const busData = busMarkers[busId];
+    const timeDifference = currentTimestamp - busData.timestamp;
+
+    // Calculer les minutes et secondes écoulées
+    const minutes = Math.floor(timeDifference / 60);
+    const seconds = timeDifference % 60;
+
+    const delayText = `Dernière mise à jour : ${minutes} min ${seconds} sec`;
+
+    // Mettre à jour la popup avec le nouveau temps
+    const popupContent = busData.marker.getPopup().getContent();
+    const updatedContent = popupContent.replace(
+      /Dernière mise à jour :.*?(min.*?)<\/b>/,
+      `<b>${delayText}</b>`
+    );
+    busData.marker.getPopup().setContent(updatedContent);
+  });
+}
+
+// Appeler updateBusTimestamps toutes les secondes pour mettre à jour l'affichage en temps réel
+setInterval(updateBusTimestamps, 1000);
+
+// Fonction pour effectuer le scraping des données des bus et les charger
+async function scrapeContent() {
+  try {
+    const response = await fetch("/scrape");
+    if (!response.ok) {
+      throw new Error("Erreur lors du scraping.");
+    }
+
+    const data = await response.json();
+
+    // Charger les nouvelles données des bus après le scraping
+    await loadBusData();
+  } catch (error) {
+    console.error("Erreur lors du scraping des données: ", error);
+  }
+}
+
+// Ajouter un événement de clic au bouton pour lancer le scraping des données
+document
+  .getElementById("scrapeButton")
+  .addEventListener("click", scrapeContent);
+
+// Ajouter un événement de clic au bouton pour afficher ou cacher les arrêts de bus
+document.getElementById("stopbus").addEventListener("click", toggleStops);
+
+// Charger les données initiales des arrêts et des bus au chargement de la page
+window.addEventListener("load", async () => {
+  await loadStopData(); // Charger les données des arrêts une seule fois au début
+  await loadBusData(); // Charger les données initiales des bus
+});
 
 // Fonction pour effectuer le scraping des données des bus et les charger
 async function scrapeContent() {
