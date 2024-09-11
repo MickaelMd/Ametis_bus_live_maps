@@ -2,212 +2,19 @@
   "content": {
     "entity": [
       {
-        "id": "821",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 142,
-            "latitude": 49.941768646240234,
-            "longitude": 2.3638391494750977
-          },
-          "stop_id": "32",
-          "timestamp": "1725984786",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "9",
-            "trip_id": "5-9-10-B-182800"
-          },
-          "vehicle": {
-            "id": "821",
-            "label": "821"
-          }
-        }
-      },
-      {
-        "id": "139",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 98,
-            "latitude": 49.87112045288086,
-            "longitude": 2.301802158355713
-          },
-          "stop_id": "47",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "15",
-            "trip_id": "5-15-4-B-174700"
-          },
-          "vehicle": {
-            "id": "139",
-            "label": "139"
-          }
-        }
-      },
-      {
-        "id": "173",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 47,
-            "latitude": 49.84946060180664,
-            "longitude": 2.4008944034576416,
-            "speed": 8
-          },
-          "stop_id": "54",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "13",
-            "trip_id": "5-13-17-B-173501"
-          },
-          "vehicle": {
-            "id": "173",
-            "label": "173"
-          }
-        }
-      },
-      {
-        "id": "337",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 129,
-            "latitude": 49.8902473449707,
-            "longitude": 2.290698766708374
-          },
-          "stop_id": "64",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N4",
-            "trip_id": "5-N4-1-B-180700"
-          },
-          "vehicle": {
-            "id": "337",
-            "label": "337"
-          }
-        }
-      },
-      {
-        "id": "144",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 115,
-            "latitude": 49.91948699951172,
-            "longitude": 2.269397020339966,
-            "speed": 8
-          },
-          "stop_id": "70",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "11",
-            "trip_id": "5-11-13-B-180400"
-          },
-          "vehicle": {
-            "id": "144",
-            "label": "144"
-          }
-        }
-      },
-      {
-        "id": "175",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 192,
-            "latitude": 49.90058517456055,
-            "longitude": 2.3410215377807617,
-            "speed": 8
-          },
-          "stop_id": "79",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "7",
-            "trip_id": "5-7-17-B-170601"
-          },
-          "vehicle": {
-            "id": "175",
-            "label": "175"
-          }
-        }
-      },
-      {
-        "id": "819",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 86,
-            "latitude": 49.87464141845703,
-            "longitude": 2.270026683807373,
-            "speed": 1
-          },
-          "stop_id": "105",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "5A",
-            "trip_id": "5-5A-7-B-175400"
-          },
-          "vehicle": {
-            "id": "819",
-            "label": "819"
-          }
-        }
-      },
-      {
-        "id": "330",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 271,
-            "latitude": 49.92259979248047,
-            "longitude": 2.301335096359253,
-            "speed": 4
-          },
-          "stop_id": "122",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "8",
-            "trip_id": "5-8-2-B-175001"
-          },
-          "vehicle": {
-            "id": "330",
-            "label": "330"
-          }
-        }
-      },
-      {
-        "id": "734",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 202,
-            "latitude": 49.8964958190918,
-            "longitude": 2.310487985610962
-          },
-          "stop_id": "128",
-          "timestamp": "1725984906",
-          "vehicle": {
-            "id": "734",
-            "label": "734"
-          }
-        }
-      },
-      {
         "id": "134",
         "vehicle": {
-          "current_status": "STOPPED_AT",
+          "current_status": "IN_TRANSIT_TO",
           "position": {
-            "bearing": 27,
-            "latitude": 49.890933990478516,
-            "longitude": 2.306694269180298
+            "bearing": 5,
+            "latitude": 49.93833541870117,
+            "longitude": 2.361207962036133
           },
-          "stop_id": "128",
-          "timestamp": "1725984916",
+          "stop_id": "17",
+          "timestamp": "1726074666",
           "trip": {
-            "direction_id": 1,
-            "route_id": "11",
-            "trip_id": "5-11-5-B-173700"
+            "route_id": "9",
+            "trip_id": "5-9-8-B-175700"
           },
           "vehicle": {
             "id": "134",
@@ -216,653 +23,21 @@
         }
       },
       {
-        "id": "813",
+        "id": "810",
         "vehicle": {
           "current_status": "IN_TRANSIT_TO",
           "position": {
-            "bearing": 46,
-            "latitude": 49.89521408081055,
-            "longitude": 2.2884011268615723
+            "bearing": 341,
+            "latitude": 49.846046447753906,
+            "longitude": 2.3821589946746826,
+            "speed": 7
           },
-          "stop_id": "145",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "7",
-            "trip_id": "5-7-4-B-174501"
-          },
-          "vehicle": {
-            "id": "813",
-            "label": "813"
-          }
-        }
-      },
-      {
-        "id": "165",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 173,
-            "latitude": 49.87915802001953,
-            "longitude": 2.2426490783691406,
-            "speed": 2
-          },
-          "stop_id": "149",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "7",
-            "trip_id": "5-7-13-B-170800"
-          },
-          "vehicle": {
-            "id": "165",
-            "label": "165"
-          }
-        }
-      },
-      {
-        "id": "179",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 19,
-            "latitude": 49.87175369262695,
-            "longitude": 2.256471633911133,
-            "speed": 5
-          },
-          "stop_id": "151",
-          "timestamp": "1725984916",
+          "stop_id": "20",
+          "timestamp": "1726074666",
           "trip": {
             "direction_id": 1,
             "route_id": "10",
             "trip_id": "5-10-19-B-181401"
-          },
-          "vehicle": {
-            "id": "179",
-            "label": "179"
-          }
-        }
-      },
-      {
-        "id": "722",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 32,
-            "latitude": 49.86998748779297,
-            "longitude": 2.2658514976501465
-          },
-          "stop_id": "156",
-          "timestamp": "1725984296",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N2",
-            "trip_id": "5-N2-12-B-181502"
-          },
-          "vehicle": {
-            "id": "722",
-            "label": "722"
-          }
-        }
-      },
-      {
-        "id": "743",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 56,
-            "latitude": 49.917057037353516,
-            "longitude": 2.337048053741455
-          },
-          "stop_id": "157",
-          "timestamp": "1725983316",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N2",
-            "trip_id": "5-N2-15-B-174602"
-          },
-          "vehicle": {
-            "id": "743",
-            "label": "743"
-          }
-        }
-      },
-      {
-        "id": "160",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 290,
-            "latitude": 49.89066696166992,
-            "longitude": 2.319174289703369,
-            "speed": 8
-          },
-          "stop_id": "224",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "7",
-            "trip_id": "5-7-12-B-175600"
-          },
-          "vehicle": {
-            "id": "160",
-            "label": "160"
-          }
-        }
-      },
-      {
-        "id": "182",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 247,
-            "latitude": 49.88029861450195,
-            "longitude": 2.270519256591797,
-            "speed": 7
-          },
-          "stop_id": "244",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N2",
-            "trip_id": "5-N2-25-B-180500"
-          },
-          "vehicle": {
-            "id": "182",
-            "label": "182"
-          }
-        }
-      },
-      {
-        "id": "339",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 241,
-            "latitude": 49.87712478637695,
-            "longitude": 2.261965036392212
-          },
-          "stop_id": "262",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N2",
-            "trip_id": "5-N2-17-B-173800"
-          },
-          "vehicle": {
-            "id": "339",
-            "label": "339"
-          }
-        }
-      },
-      {
-        "id": "735",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 180,
-            "latitude": 49.913818359375,
-            "longitude": 2.302495241165161
-          },
-          "stop_id": "275",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N3",
-            "trip_id": "5-N3-13-B-181000"
-          },
-          "vehicle": {
-            "id": "735",
-            "label": "735"
-          }
-        }
-      },
-      {
-        "id": "377",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 66,
-            "latitude": 49.904510498046875,
-            "longitude": 2.3101890087127686,
-            "speed": 8
-          },
-          "stop_id": "283",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "L",
-            "trip_id": "5-L-5-B-172701"
-          },
-          "vehicle": {
-            "id": "377",
-            "label": "377"
-          }
-        }
-      },
-      {
-        "id": "803",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 51,
-            "latitude": 49.886863708496094,
-            "longitude": 2.267786979675293,
-            "speed": 6
-          },
-          "stop_id": "288",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "9",
-            "trip_id": "5-9-8-B-175700"
-          },
-          "vehicle": {
-            "id": "803",
-            "label": "803"
-          }
-        }
-      },
-      {
-        "id": "805",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 195,
-            "latitude": 49.860870361328125,
-            "longitude": 2.3819637298583984,
-            "speed": 4
-          },
-          "stop_id": "293",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "10",
-            "trip_id": "5-10-2-B-171301"
-          },
-          "vehicle": {
-            "id": "805",
-            "label": "805"
-          }
-        }
-      },
-      {
-        "id": "190",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 186,
-            "latitude": 49.877479553222656,
-            "longitude": 2.3056464195251465,
-            "speed": 3
-          },
-          "stop_id": "297",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "6",
-            "trip_id": "5-6-9-B-172000"
-          },
-          "vehicle": {
-            "id": "190",
-            "label": "190"
-          }
-        }
-      },
-      {
-        "id": "815",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 155,
-            "latitude": 49.87717056274414,
-            "longitude": 2.305729866027832
-          },
-          "stop_id": "297",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "6",
-            "trip_id": "5-6-2-B-174000"
-          },
-          "vehicle": {
-            "id": "815",
-            "label": "815"
-          }
-        }
-      },
-      {
-        "id": "726",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 270,
-            "latitude": 49.89673614501953,
-            "longitude": 2.3007142543792725
-          },
-          "stop_id": "302",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N3",
-            "trip_id": "5-N3-1-B-173301"
-          },
-          "vehicle": {
-            "id": "726",
-            "label": "726"
-          }
-        }
-      },
-      {
-        "id": "142",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 229,
-            "latitude": 49.884422302246094,
-            "longitude": 2.283339738845825,
-            "speed": 9
-          },
-          "stop_id": "318",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "9",
-            "trip_id": "5-9-13-B-172600"
-          },
-          "vehicle": {
-            "id": "142",
-            "label": "142"
-          }
-        }
-      },
-      {
-        "id": "159",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 229,
-            "latitude": 49.88372039794922,
-            "longitude": 2.2820897102355957,
-            "speed": 1
-          },
-          "stop_id": "318",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "11",
-            "trip_id": "5-11-3-B-172700"
-          },
-          "vehicle": {
-            "id": "159",
-            "label": "159"
-          }
-        }
-      },
-      {
-        "id": "806",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 203,
-            "latitude": 49.891536712646484,
-            "longitude": 2.306999683380127,
-            "speed": 1
-          },
-          "stop_id": "335",
-          "timestamp": "1725984896",
-          "trip": {
-            "route_id": "15",
-            "trip_id": "5-15-10-B-175501"
-          },
-          "vehicle": {
-            "id": "806",
-            "label": "806"
-          }
-        }
-      },
-      {
-        "id": "800",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 99,
-            "latitude": 49.89199447631836,
-            "longitude": 2.307291269302368
-          },
-          "stop_id": "336",
-          "timestamp": "1725984826",
-          "vehicle": {
-            "id": "800",
-            "label": "800"
-          }
-        }
-      },
-      {
-        "id": "338",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 330,
-            "latitude": 49.872047424316406,
-            "longitude": 2.3194587230682373,
-            "speed": 7
-          },
-          "stop_id": "359",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N4",
-            "trip_id": "5-N4-2-B-180500"
-          },
-          "vehicle": {
-            "id": "338",
-            "label": "338"
-          }
-        }
-      },
-      {
-        "id": "820",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 186,
-            "latitude": 49.876556396484375,
-            "longitude": 2.2554080486297607
-          },
-          "stop_id": "384",
-          "timestamp": "1725984666",
-          "vehicle": {
-            "id": "820",
-            "label": "820"
-          }
-        }
-      },
-      {
-        "id": "811",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 218,
-            "latitude": 49.875118255615234,
-            "longitude": 2.2666778564453125
-          },
-          "stop_id": "399",
-          "timestamp": "1725984886",
-          "trip": {
-            "route_id": "5B",
-            "trip_id": "5-5B-2-B-170101"
-          },
-          "vehicle": {
-            "id": "811",
-            "label": "811"
-          }
-        }
-      },
-      {
-        "id": "155",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 170,
-            "latitude": 49.877532958984375,
-            "longitude": 2.2863895893096924,
-            "speed": 1
-          },
-          "stop_id": "403",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "10",
-            "trip_id": "5-10-7-B-174000"
-          },
-          "vehicle": {
-            "id": "155",
-            "label": "155"
-          }
-        }
-      },
-      {
-        "id": "157",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 23,
-            "latitude": 49.88571548461914,
-            "longitude": 2.2959280014038086,
-            "speed": 5
-          },
-          "stop_id": "418",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "12",
-            "trip_id": "5-12-10-B-174800"
-          },
-          "vehicle": {
-            "id": "157",
-            "label": "157"
-          }
-        }
-      },
-      {
-        "id": "335",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 118,
-            "latitude": 49.86393737792969,
-            "longitude": 2.35208797454834
-          },
-          "stop_id": "431",
-          "timestamp": "1725984796",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N4",
-            "trip_id": "5-N4-12-B-181700"
-          },
-          "vehicle": {
-            "id": "335",
-            "label": "335"
-          }
-        }
-      },
-      {
-        "id": "816",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 304,
-            "latitude": 49.91581344604492,
-            "longitude": 2.2776472568511963,
-            "speed": 10
-          },
-          "stop_id": "441",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "11",
-            "trip_id": "5-11-4-B-171200"
-          },
-          "vehicle": {
-            "id": "816",
-            "label": "816"
-          }
-        }
-      },
-      {
-        "id": "374",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 203,
-            "latitude": 49.9080810546875,
-            "longitude": 2.322838068008423,
-            "speed": 7
-          },
-          "stop_id": "448",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "L",
-            "trip_id": "5-L-2-B-175400"
-          },
-          "vehicle": {
-            "id": "374",
-            "label": "374"
-          }
-        }
-      },
-      {
-        "id": "191",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 256,
-            "latitude": 49.84571838378906,
-            "longitude": 2.3906147480010986,
-            "speed": 4
-          },
-          "stop_id": "455",
-          "timestamp": "1725984886",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "13",
-            "trip_id": "5-13-16-B-180400"
-          },
-          "vehicle": {
-            "id": "191",
-            "label": "191"
-          }
-        }
-      },
-      {
-        "id": "347",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 78,
-            "latitude": 49.8697509765625,
-            "longitude": 2.327863931655884,
-            "speed": 5
-          },
-          "stop_id": "487",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "N4",
-            "trip_id": "5-N4-8-B-174200"
-          },
-          "vehicle": {
-            "id": "347",
-            "label": "347"
-          }
-        }
-      },
-      {
-        "id": "810",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 81,
-            "latitude": 49.875370025634766,
-            "longitude": 2.282737970352173,
-            "speed": 4
-          },
-          "stop_id": "530",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "5B",
-            "trip_id": "5-5B-3-B-175800"
           },
           "vehicle": {
             "id": "810",
@@ -871,1275 +46,19 @@
         }
       },
       {
-        "id": "818",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 198,
-            "latitude": 49.9056396484375,
-            "longitude": 2.3259527683258057,
-            "speed": 8
-          },
-          "stop_id": "532",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "9",
-            "trip_id": "5-9-18-B-175600"
-          },
-          "vehicle": {
-            "id": "818",
-            "label": "818"
-          }
-        }
-      },
-      {
-        "id": "156",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 299,
-            "latitude": 49.867923736572266,
-            "longitude": 2.3639116287231445,
-            "speed": 2
-          },
-          "stop_id": "536",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "10",
-            "trip_id": "5-10-3-B-181200"
-          },
-          "vehicle": {
-            "id": "156",
-            "label": "156"
-          }
-        }
-      },
-      {
-        "id": "336",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 102,
-            "latitude": 49.91459655761719,
-            "longitude": 2.3199164867401123,
-            "speed": 7
-          },
-          "stop_id": "591",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "8",
-            "trip_id": "5-8-10-B-173800"
-          },
-          "vehicle": {
-            "id": "336",
-            "label": "336"
-          }
-        }
-      },
-      {
-        "id": "171",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 62,
-            "latitude": 49.90110397338867,
-            "longitude": 2.3322644233703613,
-            "speed": 6
-          },
-          "stop_id": "614",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "9",
-            "trip_id": "5-9-14-B-172500"
-          },
-          "vehicle": {
-            "id": "171",
-            "label": "171"
-          }
-        }
-      },
-      {
-        "id": "178",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 271,
-            "latitude": 49.898704528808594,
-            "longitude": 2.346191883087158,
-            "speed": 10
-          },
-          "stop_id": "616",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "7",
-            "trip_id": "5-7-14-B-181300"
-          },
-          "vehicle": {
-            "id": "178",
-            "label": "178"
-          }
-        }
-      },
-      {
-        "id": "145",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 338,
-            "latitude": 49.87588119506836,
-            "longitude": 2.2870442867279053,
-            "speed": 4
-          },
-          "stop_id": "635",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "10",
-            "trip_id": "5-10-4-B-174801"
-          },
-          "vehicle": {
-            "id": "145",
-            "label": "145"
-          }
-        }
-      },
-      {
-        "id": "801",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 265,
-            "latitude": 49.874595642089844,
-            "longitude": 2.2696099281311035
-          },
-          "stop_id": "646",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "5A",
-            "trip_id": "5-5A-1-B-165900"
-          },
-          "vehicle": {
-            "id": "801",
-            "label": "801"
-          }
-        }
-      },
-      {
-        "id": "809",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 48,
-            "latitude": 49.86233901977539,
-            "longitude": 2.226638078689575
-          },
-          "stop_id": "655",
-          "timestamp": "1725983576",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "11",
-            "trip_id": "5-11-7-B-181900"
-          },
-          "vehicle": {
-            "id": "809",
-            "label": "809"
-          }
-        }
-      },
-      {
-        "id": "814",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 116,
-            "latitude": 49.88597106933594,
-            "longitude": 2.3300704956054688,
-            "speed": 3
-          },
-          "stop_id": "688",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "7",
-            "trip_id": "5-7-10-B-172201"
-          },
-          "vehicle": {
-            "id": "814",
-            "label": "814"
-          }
-        }
-      },
-      {
-        "id": "172",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 261,
-            "latitude": 49.89615249633789,
-            "longitude": 2.2779762744903564,
-            "speed": 7
-          },
-          "stop_id": "693",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "7",
-            "trip_id": "5-7-15-B-172400"
-          },
-          "vehicle": {
-            "id": "172",
-            "label": "172"
-          }
-        }
-      },
-      {
-        "id": "379",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 264,
-            "latitude": 49.874732971191406,
-            "longitude": 2.271860361099243,
-            "speed": 1
-          },
-          "stop_id": "712",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "L",
-            "trip_id": "5-L-6-B-172000"
-          },
-          "vehicle": {
-            "id": "379",
-            "label": "379"
-          }
-        }
-      },
-      {
-        "id": "375",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 337,
-            "latitude": 49.87385940551758,
-            "longitude": 2.3699278831481934
-          },
-          "stop_id": "906",
-          "timestamp": "1725984916",
-          "vehicle": {
-            "id": "375",
-            "label": "375"
-          }
-        }
-      },
-      {
-        "id": "186",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 67,
-            "latitude": 49.9075927734375,
-            "longitude": 2.3211700916290283,
-            "speed": 9
-          },
-          "stop_id": "906",
-          "timestamp": "1725984916",
-          "vehicle": {
-            "id": "186",
-            "label": "186"
-          }
-        }
-      },
-      {
-        "id": "733",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 306,
-            "latitude": 49.860198974609375,
-            "longitude": 2.2763097286224365
-          },
-          "stop_id": "957",
-          "timestamp": "1725984616",
-          "vehicle": {
-            "id": "733",
-            "label": "733"
-          }
-        }
-      },
-      {
-        "id": "181",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 108,
-            "latitude": 49.8812141418457,
-            "longitude": 2.3303351402282715
-          },
-          "stop_id": "975",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "14",
-            "trip_id": "5-14-15-B-180501"
-          },
-          "vehicle": {
-            "id": "181",
-            "label": "181"
-          }
-        }
-      },
-      {
-        "id": "713",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 296,
-            "latitude": 49.89605712890625,
-            "longitude": 2.2944047451019287
-          },
-          "stop_id": "988",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-17-B-173000"
-          },
-          "vehicle": {
-            "id": "713",
-            "label": "713"
-          }
-        }
-      },
-      {
-        "id": "340",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 301,
-            "latitude": 49.889156341552734,
-            "longitude": 2.3105309009552,
-            "speed": 9
-          },
-          "stop_id": "993",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N4",
-            "trip_id": "5-N4-4-B-175200"
-          },
-          "vehicle": {
-            "id": "340",
-            "label": "340"
-          }
-        }
-      },
-      {
-        "id": "729",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 9,
-            "latitude": 49.919883728027344,
-            "longitude": 2.3040904998779297,
-            "speed": 5
-          },
-          "stop_id": "996",
-          "timestamp": "1725984886",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N3",
-            "trip_id": "5-N3-6-B-172201"
-          },
-          "vehicle": {
-            "id": "729",
-            "label": "729"
-          }
-        }
-      },
-      {
-        "id": "737",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 36,
-            "latitude": 49.86235427856445,
-            "longitude": 2.276710033416748
-          },
-          "stop_id": "998",
-          "timestamp": "1725984916",
-          "vehicle": {
-            "id": "737",
-            "label": "737"
-          }
-        }
-      },
-      {
-        "id": "177",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 36,
-            "latitude": 49.86177062988281,
-            "longitude": 2.276057720184326
-          },
-          "stop_id": "998",
-          "timestamp": "1725984916",
-          "vehicle": {
-            "id": "177",
-            "label": "177"
-          }
-        }
-      },
-      {
-        "id": "723",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 15,
-            "latitude": 49.878543853759766,
-            "longitude": 2.2966701984405518,
-            "speed": 4
-          },
-          "stop_id": "1002",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N3",
-            "trip_id": "5-N3-17-B-180201"
-          },
-          "vehicle": {
-            "id": "723",
-            "label": "723"
-          }
-        }
-      },
-      {
-        "id": "188",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 198,
-            "latitude": 49.88725280761719,
-            "longitude": 2.2965798377990723
-          },
-          "stop_id": "1011",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "12",
-            "trip_id": "5-12-7-B-173300"
-          },
-          "vehicle": {
-            "id": "188",
-            "label": "188"
-          }
-        }
-      },
-      {
-        "id": "730",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 101,
-            "latitude": 49.88865661621094,
-            "longitude": 2.297746181488037
-          },
-          "stop_id": "1012",
-          "timestamp": "1725984896",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N3",
-            "trip_id": "5-N3-11-B-174701"
-          },
-          "vehicle": {
-            "id": "730",
-            "label": "730"
-          }
-        }
-      },
-      {
-        "id": "376",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 93,
-            "latitude": 49.88871765136719,
-            "longitude": 2.2979683876037598
-          },
-          "stop_id": "1012",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "L",
-            "trip_id": "5-L-4-B-174701"
-          },
-          "vehicle": {
-            "id": "376",
-            "label": "376"
-          }
-        }
-      },
-      {
-        "id": "709",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 107,
-            "latitude": 49.86294937133789,
-            "longitude": 2.382826805114746,
-            "speed": 14
-          },
-          "stop_id": "1018",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N1",
-            "trip_id": "5-N1-14-B-171500"
-          },
-          "vehicle": {
-            "id": "709",
-            "label": "709"
-          }
-        }
-      },
-      {
-        "id": "373",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 323,
-            "latitude": 49.911766052246094,
-            "longitude": 2.304457187652588,
-            "speed": 4
-          },
-          "stop_id": "1021",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "L",
-            "trip_id": "5-L-1-B-171201"
-          },
-          "vehicle": {
-            "id": "373",
-            "label": "373"
-          }
-        }
-      },
-      {
-        "id": "708",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 165,
-            "latitude": 49.91382598876953,
-            "longitude": 2.254875421524048,
-            "speed": 5
-          },
-          "stop_id": "1022",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N1",
-            "trip_id": "5-N1-12-B-181000"
-          },
-          "vehicle": {
-            "id": "708",
-            "label": "708"
-          }
-        }
-      },
-      {
-        "id": "184",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 9,
-            "latitude": 49.91413879394531,
-            "longitude": 2.254986047744751,
-            "speed": 7
-          },
-          "stop_id": "1023",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "16",
-            "trip_id": "5-16-4-B-174501"
-          },
-          "vehicle": {
-            "id": "184",
-            "label": "184"
-          }
-        }
-      },
-      {
-        "id": "720",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 269,
-            "latitude": 49.86796951293945,
-            "longitude": 2.3698015213012695
-          },
-          "stop_id": "1025",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-18-B-180900"
-          },
-          "vehicle": {
-            "id": "720",
-            "label": "720"
-          }
-        }
-      },
-      {
-        "id": "716",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 206,
-            "latitude": 49.90578079223633,
-            "longitude": 2.317347764968872
-          },
-          "stop_id": "1028",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N2",
-            "trip_id": "5-N2-5-B-180400"
-          },
-          "vehicle": {
-            "id": "716",
-            "label": "716"
-          }
-        }
-      },
-      {
-        "id": "728",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 201,
-            "latitude": 49.880859375,
-            "longitude": 2.292875289916992,
-            "speed": 6
-          },
-          "stop_id": "1029",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "N3",
-            "trip_id": "5-N3-5-B-174500"
-          },
-          "vehicle": {
-            "id": "728",
-            "label": "728"
-          }
-        }
-      },
-      {
-        "id": "352",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 26,
-            "latitude": 49.90410232543945,
-            "longitude": 2.3164865970611572,
-            "speed": 10
-          },
-          "stop_id": "1034",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "8",
-            "trip_id": "5-8-9-B-181001"
-          },
-          "vehicle": {
-            "id": "352",
-            "label": "352"
-          }
-        }
-      },
-      {
-        "id": "341",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 74,
-            "latitude": 49.89013671875,
-            "longitude": 2.307584047317505
-          },
-          "stop_id": "1046",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N4",
-            "trip_id": "5-N4-5-B-175400"
-          },
-          "vehicle": {
-            "id": "341",
-            "label": "341"
-          }
-        }
-      },
-      {
-        "id": "807",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 116,
-            "latitude": 49.89027404785156,
-            "longitude": 2.307194948196411
-          },
-          "stop_id": "1046",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "5A",
-            "trip_id": "5-5A-6-B-173200"
-          },
-          "vehicle": {
-            "id": "807",
-            "label": "807"
-          }
-        }
-      },
-      {
-        "id": "727",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 330,
-            "latitude": 49.86832046508789,
-            "longitude": 2.281939744949341,
-            "speed": 4
-          },
-          "stop_id": "1050",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N3",
-            "trip_id": "5-N3-3-B-173300"
-          },
-          "vehicle": {
-            "id": "727",
-            "label": "727"
-          }
-        }
-      },
-      {
-        "id": "501",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 203,
-            "latitude": 49.89087677001953,
-            "longitude": 2.2962989807128906,
-            "speed": 6
-          },
-          "stop_id": "1053",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "CDV",
-            "trip_id": "5-CDV-1-B-180000"
-          },
-          "vehicle": {
-            "id": "501",
-            "label": "501"
-          }
-        }
-      },
-      {
-        "id": "343",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 24,
-            "latitude": 49.894840240478516,
-            "longitude": 2.299103260040283
-          },
-          "stop_id": "1054",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N4",
-            "trip_id": "5-N4-10-B-174000"
-          },
-          "vehicle": {
-            "id": "343",
-            "label": "343"
-          }
-        }
-      },
-      {
-        "id": "706",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 137,
-            "latitude": 49.89737319946289,
-            "longitude": 2.2875094413757324
-          },
-          "stop_id": "1058",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N1",
-            "trip_id": "5-N1-7-B-175500"
-          },
-          "vehicle": {
-            "id": "706",
-            "label": "706"
-          }
-        }
-      },
-      {
-        "id": "189",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 117,
-            "latitude": 49.89760971069336,
-            "longitude": 2.287036657333374
-          },
-          "stop_id": "1058",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "6",
-            "trip_id": "5-6-4-B-180000"
-          },
-          "vehicle": {
-            "id": "189",
-            "label": "189"
-          }
-        }
-      },
-      {
-        "id": "358",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 11,
-            "latitude": 49.91656494140625,
-            "longitude": 2.255774736404419,
-            "speed": 6
-          },
-          "stop_id": "1061",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "8",
-            "trip_id": "5-8-8-B-181000"
-          },
-          "vehicle": {
-            "id": "358",
-            "label": "358"
-          }
-        }
-      },
-      {
-        "id": "334",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 278,
-            "latitude": 49.9106559753418,
-            "longitude": 2.311826467514038,
-            "speed": 6
-          },
-          "stop_id": "1062",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N2",
-            "trip_id": "5-N2-13-B-173302"
-          },
-          "vehicle": {
-            "id": "334",
-            "label": "334"
-          }
-        }
-      },
-      {
-        "id": "711",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 120,
-            "latitude": 49.8838996887207,
-            "longitude": 2.3237621784210205
-          },
-          "stop_id": "1066",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N1",
-            "trip_id": "5-N1-16-B-172800"
-          },
-          "vehicle": {
-            "id": "711",
-            "label": "711"
-          }
-        }
-      },
-      {
-        "id": "346",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 194,
-            "latitude": 49.89361572265625,
-            "longitude": 2.2928500175476074,
-            "speed": 5
-          },
-          "stop_id": "1068",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N4",
-            "trip_id": "5-N4-11-B-172800"
-          },
-          "vehicle": {
-            "id": "346",
-            "label": "346"
-          }
-        }
-      },
-      {
-        "id": "721",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 72,
-            "latitude": 49.9116096496582,
-            "longitude": 2.297422409057617
-          },
-          "stop_id": "1075",
-          "timestamp": "1725984586",
-          "trip": {
-            "route_id": "N2",
-            "trip_id": "5-N2-10-B-181600"
-          },
-          "vehicle": {
-            "id": "721",
-            "label": "721"
-          }
-        }
-      },
-      {
-        "id": "331",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 89,
-            "latitude": 49.911617279052734,
-            "longitude": 2.2978949546813965
-          },
-          "stop_id": "1075",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "L",
-            "trip_id": "5-L-7-B-180900"
-          },
-          "vehicle": {
-            "id": "331",
-            "label": "331"
-          }
-        }
-      },
-      {
-        "id": "332",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 207,
-            "latitude": 49.894527435302734,
-            "longitude": 2.309124231338501,
-            "speed": 3
-          },
-          "stop_id": "1077",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "L",
-            "trip_id": "5-L-8-B-173800"
-          },
-          "vehicle": {
-            "id": "332",
-            "label": "332"
-          }
-        }
-      },
-      {
-        "id": "705",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 303,
-            "latitude": 49.887088775634766,
-            "longitude": 2.3156180381774902,
-            "speed": 3
-          },
-          "stop_id": "1086",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-11-B-175600"
-          },
-          "vehicle": {
-            "id": "705",
-            "label": "705"
-          }
-        }
-      },
-      {
-        "id": "808",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 313,
-            "latitude": 49.88677978515625,
-            "longitude": 2.31638240814209,
-            "speed": 6
-          },
-          "stop_id": "1086",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "5B",
-            "trip_id": "5-5B-8-B-172700"
-          },
-          "vehicle": {
-            "id": "808",
-            "label": "808"
-          }
-        }
-      },
-      {
-        "id": "174",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 90,
-            "latitude": 49.9118537902832,
-            "longitude": 2.3040080070495605
-          },
-          "stop_id": "1090",
-          "timestamp": "1725984866",
-          "trip": {
-            "route_id": "6",
-            "trip_id": "5-6-1-B-182000"
-          },
-          "vehicle": {
-            "id": "174",
-            "label": "174"
-          }
-        }
-      },
-      {
-        "id": "168",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 314,
-            "latitude": 49.87206268310547,
-            "longitude": 2.2962448596954346
-          },
-          "stop_id": "1093",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "5A",
-            "trip_id": "5-5A-5-B-171400"
-          },
-          "vehicle": {
-            "id": "168",
-            "label": "168"
-          }
-        }
-      },
-      {
-        "id": "719",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 29,
-            "latitude": 49.88589096069336,
-            "longitude": 2.278085470199585,
-            "speed": 10
-          },
-          "stop_id": "1100",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N2",
-            "trip_id": "5-N2-9-B-175902"
-          },
-          "vehicle": {
-            "id": "719",
-            "label": "719"
-          }
-        }
-      },
-      {
-        "id": "701",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 115,
-            "latitude": 49.89027786254883,
-            "longitude": 2.307014226913452
-          },
-          "stop_id": "1101",
-          "timestamp": "1725984916",
-          "trip": {
-            "route_id": "N1",
-            "trip_id": "5-N1-5-B-174200"
-          },
-          "vehicle": {
-            "id": "701",
-            "label": "701"
-          }
-        }
-      },
-      {
-        "id": "169",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 82,
-            "latitude": 49.888545989990234,
-            "longitude": 2.3042359352111816,
-            "speed": 6
-          },
-          "stop_id": "1101",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "16",
-            "trip_id": "5-16-5-B-173501"
-          },
-          "vehicle": {
-            "id": "169",
-            "label": "169"
-          }
-        }
-      },
-      {
-        "id": "702",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 333,
-            "latitude": 49.891143798828125,
-            "longitude": 2.302330255508423
-          },
-          "stop_id": "1102",
-          "timestamp": "1725984906",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-6-B-174300"
-          },
-          "vehicle": {
-            "id": "702",
-            "label": "702"
-          }
-        }
-      },
-      {
-        "id": "817",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 346,
-            "latitude": 49.89127731323242,
-            "longitude": 2.3022191524505615
-          },
-          "stop_id": "1102",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "7",
-            "trip_id": "5-7-1-B-174000"
-          },
-          "vehicle": {
-            "id": "817",
-            "label": "817"
-          }
-        }
-      },
-      {
-        "id": "333",
-        "vehicle": {
-          "current_status": "STOPPED_AT",
-          "position": {
-            "bearing": 111,
-            "latitude": 49.871028900146484,
-            "longitude": 2.2600293159484863
-          },
-          "stop_id": "1108",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "L",
-            "trip_id": "5-L-9-B-181100"
-          },
-          "vehicle": {
-            "id": "333",
-            "label": "333"
-          }
-        }
-      },
-      {
-        "id": "710",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 176,
-            "latitude": 49.915252685546875,
-            "longitude": 2.246210813522339,
-            "speed": 8
-          },
-          "stop_id": "1113",
-          "timestamp": "1725984916",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-15-B-170400"
-          },
-          "vehicle": {
-            "id": "710",
-            "label": "710"
-          }
-        }
-      },
-      {
-        "id": "740",
-        "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
-          "position": {
-            "bearing": 108,
-            "latitude": 49.89651107788086,
-            "longitude": 2.3016037940979004,
-            "speed": 5
-          },
-          "stop_id": "1120",
-          "timestamp": "1725984906",
-          "trip": {
-            "route_id": "N3",
-            "trip_id": "5-N3-16-B-175800"
-          },
-          "vehicle": {
-            "id": "740",
-            "label": "740"
-          }
-        }
-      },
-      {
         "id": "715",
         "vehicle": {
-          "current_status": "IN_TRANSIT_TO",
+          "current_status": "STOPPED_AT",
           "position": {
-            "bearing": 296,
-            "latitude": 49.89021301269531,
-            "longitude": 2.2911853790283203,
-            "speed": 1
+            "latitude": 49.904300689697266,
+            "longitude": 2.300889492034912,
+            "speed": 6
           },
-          "stop_id": "1121",
-          "timestamp": "1725984916",
+          "stop_id": "41",
+          "timestamp": "1726074666",
           "trip": {
-            "route_id": "N2",
-            "trip_id": "5-N2-1-B-175100"
+            "route_id": "N3",
+            "trip_id": "5-N3-17-B-190100"
           },
           "vehicle": {
             "id": "715",
@@ -2148,48 +67,1367 @@
         }
       },
       {
-        "id": "724",
+        "id": "821",
         "vehicle": {
-          "current_status": "STOPPED_AT",
+          "current_status": "IN_TRANSIT_TO",
           "position": {
-            "bearing": 310,
-            "latitude": 49.894439697265625,
-            "longitude": 2.2924046516418457,
-            "speed": 1
+            "bearing": 298,
+            "latitude": 49.84944152832031,
+            "longitude": 2.3791627883911133,
+            "speed": 9
           },
-          "stop_id": "2057",
-          "timestamp": "1725984896",
+          "stop_id": "43",
+          "timestamp": "1726074666",
           "trip": {
             "direction_id": 1,
-            "route_id": "N1",
-            "trip_id": "5-N1-19-B-171700"
+            "route_id": "13",
+            "trip_id": "5-13-11-B-185800"
           },
           "vehicle": {
-            "id": "724",
-            "label": "724"
+            "id": "821",
+            "label": "821"
           }
         }
       },
       {
-        "id": "183",
+        "id": "170",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 187,
+            "latitude": 49.92984390258789,
+            "longitude": 2.3063368797302246,
+            "speed": 21
+          },
+          "stop_id": "69",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "170",
+            "label": "170"
+          }
+        }
+      },
+      {
+        "id": "379",
         "vehicle": {
           "current_status": "STOPPED_AT",
           "position": {
-            "bearing": 315,
-            "latitude": 49.89433288574219,
-            "longitude": 2.2925992012023926,
+            "bearing": 28,
+            "latitude": 49.88951110839844,
+            "longitude": 2.2903106212615967,
             "speed": 2
           },
-          "stop_id": "2057",
-          "timestamp": "1725984906",
+          "stop_id": "89",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "L",
+            "trip_id": "5-L-1-B-182900"
+          },
+          "vehicle": {
+            "id": "379",
+            "label": "379"
+          }
+        }
+      },
+      {
+        "id": "178",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 207,
+            "latitude": 49.88896179199219,
+            "longitude": 2.2899913787841797,
+            "speed": 1
+          },
+          "stop_id": "89",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "5B",
+            "trip_id": "5-5B-2-B-181900"
+          },
+          "vehicle": {
+            "id": "178",
+            "label": "178"
+          }
+        }
+      },
+      {
+        "id": "806",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 29,
+            "latitude": 49.88947296142578,
+            "longitude": 2.290282726287842,
+            "speed": 2
+          },
+          "stop_id": "89",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "11",
+            "trip_id": "5-11-4-B-183400"
+          },
+          "vehicle": {
+            "id": "806",
+            "label": "806"
+          }
+        }
+      },
+      {
+        "id": "375",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 244,
+            "latitude": 49.922672271728516,
+            "longitude": 2.302628517150879
+          },
+          "stop_id": "122",
+          "timestamp": "1726073616",
+          "trip": {
+            "route_id": "L",
+            "trip_id": "5-L-4-B-191100"
+          },
+          "vehicle": {
+            "id": "375",
+            "label": "375"
+          }
+        }
+      },
+      {
+        "id": "171",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 199,
+            "latitude": 49.89366912841797,
+            "longitude": 2.2865819931030273,
+            "speed": 2
+          },
+          "stop_id": "146",
+          "timestamp": "1726074656",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "7",
+            "trip_id": "5-7-17-B-183100"
+          },
+          "vehicle": {
+            "id": "171",
+            "label": "171"
+          }
+        }
+      },
+      {
+        "id": "814",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 28,
+            "latitude": 49.886417388916016,
+            "longitude": 2.2785680294036865
+          },
+          "stop_id": "147",
+          "timestamp": "1726074646",
+          "vehicle": {
+            "id": "814",
+            "label": "814"
+          }
+        }
+      },
+      {
+        "id": "716",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 32,
+            "latitude": 49.86998748779297,
+            "longitude": 2.2658514976501465
+          },
+          "stop_id": "156",
+          "timestamp": "1726074226",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N2",
+            "trip_id": "5-N2-13-B-191502"
+          },
+          "vehicle": {
+            "id": "716",
+            "label": "716"
+          }
+        }
+      },
+      {
+        "id": "337",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 110,
+            "latitude": 49.89809036254883,
+            "longitude": 2.267174005508423
+          },
+          "stop_id": "170",
+          "timestamp": "1726073946",
+          "trip": {
+            "route_id": "N4",
+            "trip_id": "5-N4-12-B-191400"
+          },
+          "vehicle": {
+            "id": "337",
+            "label": "337"
+          }
+        }
+      },
+      {
+        "id": "734",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 360,
+            "latitude": 49.91227340698242,
+            "longitude": 2.3026773929595947
+          },
+          "stop_id": "185",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N3",
+            "trip_id": "5-N3-3-B-183201"
+          },
+          "vehicle": {
+            "id": "734",
+            "label": "734"
+          }
+        }
+      },
+      {
+        "id": "820",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 276,
+            "latitude": 49.870887756347656,
+            "longitude": 2.3070812225341797,
+            "speed": 3
+          },
+          "stop_id": "229",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "5A",
+            "trip_id": "5-5A-1-B-181700"
+          },
+          "vehicle": {
+            "id": "820",
+            "label": "820"
+          }
+        }
+      },
+      {
+        "id": "805",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 79,
+            "latitude": 49.87083435058594,
+            "longitude": 2.3095123767852783,
+            "speed": 5
+          },
+          "stop_id": "230",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "6",
+            "trip_id": "5-6-3-B-184000"
+          },
+          "vehicle": {
+            "id": "805",
+            "label": "805"
+          }
+        }
+      },
+      {
+        "id": "743",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 247,
+            "latitude": 49.88035583496094,
+            "longitude": 2.2707138061523438,
+            "speed": 12
+          },
+          "stop_id": "244",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "N2",
+            "trip_id": "5-N2-15-B-184400"
+          },
+          "vehicle": {
+            "id": "743",
+            "label": "743"
+          }
+        }
+      },
+      {
+        "id": "374",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 252,
+            "latitude": 49.90642547607422,
+            "longitude": 2.316847085952759,
+            "speed": 4
+          },
+          "stop_id": "258",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "L",
+            "trip_id": "5-L-5-B-185000"
+          },
+          "vehicle": {
+            "id": "374",
+            "label": "374"
+          }
+        }
+      },
+      {
+        "id": "352",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 147,
+            "latitude": 49.91401290893555,
+            "longitude": 2.2458794116973877
+          },
+          "stop_id": "292",
+          "timestamp": "1726073856",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "8",
+            "trip_id": "5-8-9-B-191400"
+          },
+          "vehicle": {
+            "id": "352",
+            "label": "352"
+          }
+        }
+      },
+      {
+        "id": "813",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 333,
+            "latitude": 49.90654373168945,
+            "longitude": 2.285651445388794,
+            "speed": 6
+          },
+          "stop_id": "301",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "11",
+            "trip_id": "5-11-7-B-181900"
+          },
+          "vehicle": {
+            "id": "813",
+            "label": "813"
+          }
+        }
+      },
+      {
+        "id": "377",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 9,
+            "latitude": 49.90171813964844,
+            "longitude": 2.299848794937134
+          },
+          "stop_id": "302",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "L",
+            "trip_id": "5-L-6-B-183101"
+          },
+          "vehicle": {
+            "id": "377",
+            "label": "377"
+          }
+        }
+      },
+      {
+        "id": "816",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 172,
+            "latitude": 49.88187789916992,
+            "longitude": 2.3045599460601807,
+            "speed": 5
+          },
+          "stop_id": "322",
+          "timestamp": "1726074656",
+          "trip": {
+            "route_id": "15",
+            "trip_id": "5-15-10-B-190500"
+          },
+          "vehicle": {
+            "id": "816",
+            "label": "816"
+          }
+        }
+      },
+      {
+        "id": "720",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 45,
+            "latitude": 49.881614685058594,
+            "longitude": 2.283912420272827
+          },
+          "stop_id": "330",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "720",
+            "label": "720"
+          }
+        }
+      },
+      {
+        "id": "189",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 26,
+            "latitude": 49.90221405029297,
+            "longitude": 2.3149163722991943
+          },
+          "stop_id": "358",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "189",
+            "label": "189"
+          }
+        }
+      },
+      {
+        "id": "341",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 169,
+            "latitude": 49.87178039550781,
+            "longitude": 2.3196394443511963,
+            "speed": 1
+          },
+          "stop_id": "360",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "N4",
+            "trip_id": "5-N4-4-B-184300"
+          },
+          "vehicle": {
+            "id": "341",
+            "label": "341"
+          }
+        }
+      },
+      {
+        "id": "334",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 264,
+            "latitude": 49.87713623046875,
+            "longitude": 2.255687952041626
+          },
+          "stop_id": "384",
+          "timestamp": "1726074536",
+          "vehicle": {
+            "id": "334",
+            "label": "334"
+          }
+        }
+      },
+      {
+        "id": "181",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 158,
+            "latitude": 49.90085220336914,
+            "longitude": 2.2732863426208496,
+            "speed": 2
+          },
+          "stop_id": "419",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "7",
+            "trip_id": "5-7-15-B-185301"
+          },
+          "vehicle": {
+            "id": "181",
+            "label": "181"
+          }
+        }
+      },
+      {
+        "id": "340",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 326,
+            "latitude": 49.86370086669922,
+            "longitude": 2.351963996887207
+          },
+          "stop_id": "431",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N4",
+            "trip_id": "5-N4-10-B-191300"
+          },
+          "vehicle": {
+            "id": "340",
+            "label": "340"
+          }
+        }
+      },
+      {
+        "id": "151",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 58,
+            "latitude": 49.8865852355957,
+            "longitude": 2.3416178226470947,
+            "speed": 6
+          },
+          "stop_id": "475",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "7",
+            "trip_id": "5-7-11-B-182101"
+          },
+          "vehicle": {
+            "id": "151",
+            "label": "151"
+          }
+        }
+      },
+      {
+        "id": "801",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 187,
+            "latitude": 49.84302520751953,
+            "longitude": 2.230734348297119,
+            "speed": 8
+          },
+          "stop_id": "492",
+          "timestamp": "1726074596",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "9",
+            "trip_id": "5-9-18-B-175600"
+          },
+          "vehicle": {
+            "id": "801",
+            "label": "801"
+          }
+        }
+      },
+      {
+        "id": "709",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 289,
+            "latitude": 49.903263092041016,
+            "longitude": 2.3592872619628906,
+            "speed": 1
+          },
+          "stop_id": "528",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "709",
+            "label": "709"
+          }
+        }
+      },
+      {
+        "id": "703",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 51,
+            "latitude": 49.86214065551758,
+            "longitude": 2.3828954696655273
+          },
+          "stop_id": "528",
+          "timestamp": "1726074486",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N1",
+            "trip_id": "5-N1-12-B-191700"
+          },
+          "vehicle": {
+            "id": "703",
+            "label": "703"
+          }
+        }
+      },
+      {
+        "id": "159",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 301,
+            "latitude": 49.881587982177734,
+            "longitude": 2.2539689540863037,
+            "speed": 4
+          },
+          "stop_id": "546",
+          "timestamp": "1726074646",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "7",
+            "trip_id": "5-7-14-B-181300"
+          },
+          "vehicle": {
+            "id": "159",
+            "label": "159"
+          }
+        }
+      },
+      {
+        "id": "803",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 302,
+            "latitude": 49.88154983520508,
+            "longitude": 2.329543113708496,
+            "speed": 8
+          },
+          "stop_id": "571",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "5B",
+            "trip_id": "5-5B-8-B-184400"
+          },
+          "vehicle": {
+            "id": "803",
+            "label": "803"
+          }
+        }
+      },
+      {
+        "id": "819",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 94,
+            "latitude": 49.90135192871094,
+            "longitude": 2.3359200954437256,
+            "speed": 12
+          },
+          "stop_id": "614",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "9",
+            "trip_id": "5-9-7-B-182400"
+          },
+          "vehicle": {
+            "id": "819",
+            "label": "819"
+          }
+        }
+      },
+      {
+        "id": "149",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 121,
+            "latitude": 49.87599182128906,
+            "longitude": 2.248615264892578,
+            "speed": 5
+          },
+          "stop_id": "637",
+          "timestamp": "1726074656",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "7",
+            "trip_id": "5-7-12-B-175600"
+          },
+          "vehicle": {
+            "id": "149",
+            "label": "149"
+          }
+        }
+      },
+      {
+        "id": "169",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 247,
+            "latitude": 49.9129638671875,
+            "longitude": 2.3405497074127197,
+            "speed": 6
+          },
+          "stop_id": "652",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "169",
+            "label": "169"
+          }
+        }
+      },
+      {
+        "id": "188",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 25,
+            "latitude": 49.90563201904297,
+            "longitude": 2.317375421524048
+          },
+          "stop_id": "655",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "188",
+            "label": "188"
+          }
+        }
+      },
+      {
+        "id": "165",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 33,
+            "latitude": 49.86233901977539,
+            "longitude": 2.2268080711364746
+          },
+          "stop_id": "655",
+          "timestamp": "1726074386",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "11",
+            "trip_id": "5-11-13-B-193100"
+          },
+          "vehicle": {
+            "id": "165",
+            "label": "165"
+          }
+        }
+      },
+      {
+        "id": "808",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 292,
+            "latitude": 49.89189529418945,
+            "longitude": 2.3122804164886475,
+            "speed": 8
+          },
+          "stop_id": "658",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "7",
+            "trip_id": "5-7-10-B-185000"
+          },
+          "vehicle": {
+            "id": "808",
+            "label": "808"
+          }
+        }
+      },
+      {
+        "id": "156",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 270,
+            "latitude": 49.913875579833984,
+            "longitude": 2.2315311431884766,
+            "speed": 5
+          },
+          "stop_id": "716",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "16",
+            "trip_id": "5-16-5-B-183001"
+          },
+          "vehicle": {
+            "id": "156",
+            "label": "156"
+          }
+        }
+      },
+      {
+        "id": "373",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 24,
+            "latitude": 49.89384841918945,
+            "longitude": 2.308790922164917,
+            "speed": 10
+          },
+          "stop_id": "906",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "373",
+            "label": "373"
+          }
+        }
+      },
+      {
+        "id": "174",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 25,
+            "latitude": 49.89731979370117,
+            "longitude": 2.311290979385376,
+            "speed": 10
+          },
+          "stop_id": "906",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "174",
+            "label": "174"
+          }
+        }
+      },
+      {
+        "id": "727",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 306,
+            "latitude": 49.860198974609375,
+            "longitude": 2.2763097286224365
+          },
+          "stop_id": "957",
+          "timestamp": "1726073566",
+          "vehicle": {
+            "id": "727",
+            "label": "727"
+          }
+        }
+      },
+      {
+        "id": "809",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 270,
+            "latitude": 49.89814758300781,
+            "longitude": 2.3559908866882324
+          },
+          "stop_id": "981",
+          "timestamp": "1726073866",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "7",
+            "trip_id": "5-7-4-B-191500"
+          },
+          "vehicle": {
+            "id": "809",
+            "label": "809"
+          }
+        }
+      },
+      {
+        "id": "711",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 338,
+            "latitude": 49.910518646240234,
+            "longitude": 2.3162195682525635
+          },
+          "stop_id": "986",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N2",
+            "trip_id": "5-N2-17-B-183202"
+          },
+          "vehicle": {
+            "id": "711",
+            "label": "711"
+          }
+        }
+      },
+      {
+        "id": "702",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 286,
+            "latitude": 49.89550018310547,
+            "longitude": 2.2962257862091064
+          },
+          "stop_id": "988",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N1",
+            "trip_id": "5-N1-16-B-183400"
+          },
+          "vehicle": {
+            "id": "702",
+            "label": "702"
+          }
+        }
+      },
+      {
+        "id": "726",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 36,
+            "latitude": 49.87738037109375,
+            "longitude": 2.2935450077056885
+          },
+          "stop_id": "998",
+          "timestamp": "1726074666",
+          "vehicle": {
+            "id": "726",
+            "label": "726"
+          }
+        }
+      },
+      {
+        "id": "330",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 270,
+            "latitude": 49.91167449951172,
+            "longitude": 2.3082807064056396,
+            "speed": 7
+          },
+          "stop_id": "1021",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "L",
+            "trip_id": "5-L-9-B-181100"
+          },
+          "vehicle": {
+            "id": "330",
+            "label": "330"
+          }
+        }
+      },
+      {
+        "id": "735",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 96,
+            "latitude": 49.879520416259766,
+            "longitude": 2.292959690093994,
+            "speed": 4
+          },
+          "stop_id": "1029",
+          "timestamp": "1726074656",
+          "trip": {
+            "route_id": "N3",
+            "trip_id": "5-N3-1-B-184100"
+          },
+          "vehicle": {
+            "id": "735",
+            "label": "735"
+          }
+        }
+      },
+      {
+        "id": "730",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 20,
+            "latitude": 49.88382339477539,
+            "longitude": 2.2946372032165527,
+            "speed": 5
+          },
+          "stop_id": "1030",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N3",
+            "trip_id": "5-N3-16-B-185301"
+          },
+          "vehicle": {
+            "id": "730",
+            "label": "730"
+          }
+        }
+      },
+      {
+        "id": "358",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 26,
+            "latitude": 49.903011322021484,
+            "longitude": 2.315666675567627,
+            "speed": 3
+          },
+          "stop_id": "1034",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "8",
+            "trip_id": "5-8-8-B-190501"
+          },
+          "vehicle": {
+            "id": "358",
+            "label": "358"
+          }
+        }
+      },
+      {
+        "id": "338",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 28,
+            "latitude": 49.89410400390625,
+            "longitude": 2.2985618114471436,
+            "speed": 3
+          },
+          "stop_id": "1054",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N4",
+            "trip_id": "5-N4-5-B-184200"
+          },
+          "vehicle": {
+            "id": "338",
+            "label": "338"
+          }
+        }
+      },
+      {
+        "id": "701",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 121,
+            "latitude": 49.892112731933594,
+            "longitude": 2.298396587371826,
+            "speed": 4
+          },
+          "stop_id": "1057",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "N1",
+            "trip_id": "5-N1-17-B-184800"
+          },
+          "vehicle": {
+            "id": "701",
+            "label": "701"
+          }
+        }
+      },
+      {
+        "id": "160",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 309,
+            "latitude": 49.89936828613281,
+            "longitude": 2.2841715812683105,
+            "speed": 8
+          },
+          "stop_id": "1059",
+          "timestamp": "1726074666",
           "trip": {
             "direction_id": 1,
             "route_id": "6",
-            "trip_id": "5-6-3-B-175000"
+            "trip_id": "5-6-4-B-185000"
           },
           "vehicle": {
-            "id": "183",
-            "label": "183"
+            "id": "160",
+            "label": "160"
+          }
+        }
+      },
+      {
+        "id": "331",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 90,
+            "latitude": 49.92697525024414,
+            "longitude": 2.3078479766845703
+          },
+          "stop_id": "1061",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N1",
+            "trip_id": "5-N1-18-B-180900"
+          },
+          "vehicle": {
+            "id": "331",
+            "label": "331"
+          }
+        }
+      },
+      {
+        "id": "721",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 91,
+            "latitude": 49.91063690185547,
+            "longitude": 2.3158721923828125,
+            "speed": 6
+          },
+          "stop_id": "1063",
+          "timestamp": "1726074656",
+          "trip": {
+            "route_id": "N2",
+            "trip_id": "5-N2-9-B-190400"
+          },
+          "vehicle": {
+            "id": "721",
+            "label": "721"
+          }
+        }
+      },
+      {
+        "id": "713",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 31,
+            "latitude": 49.88755798339844,
+            "longitude": 2.2797231674194336
+          },
+          "stop_id": "1065",
+          "timestamp": "1726074656",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N2",
+            "trip_id": "5-N2-5-B-185402"
+          },
+          "vehicle": {
+            "id": "713",
+            "label": "713"
+          }
+        }
+      },
+      {
+        "id": "173",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 203,
+            "latitude": 49.88975524902344,
+            "longitude": 2.290435314178467,
+            "speed": 2
+          },
+          "stop_id": "1068",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "9",
+            "trip_id": "5-9-10-B-182800"
+          },
+          "vehicle": {
+            "id": "173",
+            "label": "173"
+          }
+        }
+      },
+      {
+        "id": "815",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 107,
+            "latitude": 49.89521026611328,
+            "longitude": 2.3069417476654053,
+            "speed": 5
+          },
+          "stop_id": "1077",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "5A",
+            "trip_id": "5-5A-6-B-184500"
+          },
+          "vehicle": {
+            "id": "815",
+            "label": "815"
+          }
+        }
+      },
+      {
+        "id": "740",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 294,
+            "latitude": 49.8779296875,
+            "longitude": 2.3395748138427734,
+            "speed": 11
+          },
+          "stop_id": "1080",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N1",
+            "trip_id": "5-N1-5-B-185600"
+          },
+          "vehicle": {
+            "id": "740",
+            "label": "740"
+          }
+        }
+      },
+      {
+        "id": "807",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 260,
+            "latitude": 49.911865234375,
+            "longitude": 2.3032615184783936
+          },
+          "stop_id": "1090",
+          "timestamp": "1726074496",
+          "trip": {
+            "route_id": "6",
+            "trip_id": "5-6-2-B-191000"
+          },
+          "vehicle": {
+            "id": "807",
+            "label": "807"
+          }
+        }
+      },
+      {
+        "id": "706",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 120,
+            "latitude": 49.87064743041992,
+            "longitude": 2.356981039047241,
+            "speed": 6
+          },
+          "stop_id": "1091",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "N1",
+            "trip_id": "5-N1-15-B-182300"
+          },
+          "vehicle": {
+            "id": "706",
+            "label": "706"
+          }
+        }
+      },
+      {
+        "id": "708",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 74,
+            "latitude": 49.91608428955078,
+            "longitude": 2.2495603561401367,
+            "speed": 4
+          },
+          "stop_id": "1112",
+          "timestamp": "1726074666",
+          "trip": {
+            "route_id": "N1",
+            "trip_id": "5-N1-11-B-190900"
+          },
+          "vehicle": {
+            "id": "708",
+            "label": "708"
+          }
+        }
+      },
+      {
+        "id": "705",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 301,
+            "latitude": 49.90945816040039,
+            "longitude": 2.2599985599517822,
+            "speed": 10
+          },
+          "stop_id": "1119",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N1",
+            "trip_id": "5-N1-14-B-182200"
+          },
+          "vehicle": {
+            "id": "705",
+            "label": "705"
+          }
+        }
+      },
+      {
+        "id": "332",
+        "vehicle": {
+          "current_status": "IN_TRANSIT_TO",
+          "position": {
+            "bearing": 302,
+            "latitude": 49.896785736083984,
+            "longitude": 2.2722489833831787,
+            "speed": 13
+          },
+          "stop_id": "1126",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "N4",
+            "trip_id": "5-N4-8-B-183000"
+          },
+          "vehicle": {
+            "id": "332",
+            "label": "332"
+          }
+        }
+      },
+      {
+        "id": "333",
+        "vehicle": {
+          "current_status": "STOPPED_AT",
+          "position": {
+            "bearing": 358,
+            "latitude": 49.876625061035156,
+            "longitude": 2.2825143337249756
+          },
+          "stop_id": "1221",
+          "timestamp": "1726074666",
+          "trip": {
+            "direction_id": 1,
+            "route_id": "L",
+            "trip_id": "5-L-8-B-185401"
+          },
+          "vehicle": {
+            "id": "333",
+            "label": "333"
           }
         }
       },
@@ -2198,18 +1436,12 @@
         "vehicle": {
           "current_status": "STOPPED_AT",
           "position": {
-            "bearing": 207,
-            "latitude": 49.86628723144531,
-            "longitude": 2.2477848529815674,
-            "speed": 2
+            "bearing": 84,
+            "latitude": 49.851375579833984,
+            "longitude": 2.340888023376465
           },
-          "stop_id": "2090",
-          "timestamp": "1725984836",
-          "trip": {
-            "direction_id": 1,
-            "route_id": "9",
-            "trip_id": "5-9-7-B-165600"
-          },
+          "stop_id": "10000",
+          "timestamp": "1726074656",
           "vehicle": {
             "id": "802",
             "label": "802"
@@ -2217,26 +1449,26 @@
         }
       },
       {
-        "id": "736",
+        "id": "733",
         "vehicle": {
-          "current_status": "STOPPED_AT",
+          "current_status": "IN_TRANSIT_TO",
           "position": {
-            "bearing": 61,
-            "latitude": 49.90729904174805,
-            "longitude": 2.3200080394744873
+            "bearing": 36,
+            "latitude": 49.89558792114258,
+            "longitude": 2.313946485519409,
+            "speed": 3
           },
-          "stop_id": "10000",
-          "timestamp": "1725984896",
+          "timestamp": "1726074666",
           "vehicle": {
-            "id": "736",
-            "label": "736"
+            "id": "733",
+            "label": "733"
           }
         }
       }
     ],
     "header": {
       "gtfs_realtime_version": "2.0",
-      "timestamp": "1725984922"
+      "timestamp": "1726074674"
     }
   }
 }
