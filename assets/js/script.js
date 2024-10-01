@@ -112,11 +112,16 @@ async function loadBusData() {
     const delayMap = {};
     delayData.content.entity.forEach((delay) => {
       const tripId = delay.id;
-      delay.trip_update.stop_time_update.forEach((update) => {
-        if (update.arrival && update.arrival.delay) {
-          delayMap[tripId] = update.arrival.delay;
-        }
-      });
+      if (
+        delay.trip_update &&
+        Array.isArray(delay.trip_update.stop_time_update)
+      ) {
+        delay.trip_update.stop_time_update.forEach((update) => {
+          if (update.arrival && update.arrival.delay) {
+            delayMap[tripId] = update.arrival.delay;
+          }
+        });
+      }
     });
 
     busData.content.entity.forEach((bus) => {
