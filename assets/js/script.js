@@ -1,15 +1,11 @@
-// Initialiser la carte avec le centre (latitude et longitude) et le niveau de zoom initial.
 const map = L.map("map").setView([49.884287, 2.309166], 13);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap contributors",
 }).addTo(map);
 
-// Déclarer des variables globales pour les couches de la carte
-let stopsLayer = null; // Pour stocker la couche GeoJSON des arrêts de bus
-let busMarkersLayer = L.layerGroup().addTo(map); // Initialisation de la couche de groupe pour les marqueurs des bus
-
-// Variable globale pour stocker les arrêts de bus avec leurs noms
+let stopsLayer = null;
+let busMarkersLayer = L.layerGroup().addTo(map);
 let stops = {};
 
 // Fonction pour charger les données GeoJSON des arrêts et créer une couche de marqueurs
@@ -93,7 +89,7 @@ async function loadBusData() {
       console.log(
         "Les données des bus sont identiques, pas besoin de mettre à jour."
       );
-      return; // Ne pas continuer si les données n'ont pas changé
+      return;
     }
 
     console.log(`Nombre total de bus : ${busData.content.entity.length}`);

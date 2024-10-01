@@ -1,4 +1,3 @@
-// Fonction pour afficher la position de l'utilisateur sur la carte
 function showUserPosition() {
   // Vérifier si le navigateur supporte la géolocalisation
   if (!navigator.geolocation) {
@@ -13,13 +12,12 @@ function showUserPosition() {
 
       // Ajouter un marqueur pour la position de l'utilisateur
       const userIcon = L.icon({
-        iconUrl: "assets/img/user_icon.png", // Une icône pour l'utilisateur
-        iconSize: [30, 30], // Taille de l'icône
-        iconAnchor: [15, 15], // Point d'ancrage de l'icône
-        popupAnchor: [0, -15], // Position de l'info-bulle
+        iconUrl: "assets/img/user_icon.png",
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -15],
       });
 
-      // Ajouter un marqueur à la position de l'utilisateur
       const userMarker = L.marker([latitude, longitude], { icon: userIcon })
         .addTo(map)
         .bindPopup("Vous êtes ici.");
@@ -46,5 +44,4 @@ function showUserPosition() {
   );
 }
 
-// Associer l'action à un bouton, par exemple celui qui gère les arrêts de bus
 document.getElementById("posgps").addEventListener("click", showUserPosition);
