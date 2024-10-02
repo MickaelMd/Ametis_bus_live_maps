@@ -1,16 +1,12 @@
 function showUserPosition() {
-  // Vérifier si le navigateur supporte la géolocalisation
   if (!navigator.geolocation) {
     alert("La géolocalisation n'est pas supportée par votre navigateur.");
     return;
   }
-
-  // Obtenir la position GPS de l'utilisateur
   navigator.geolocation.getCurrentPosition(
     (position) => {
       const { latitude, longitude } = position.coords;
 
-      // Ajouter un marqueur pour la position de l'utilisateur
       const userIcon = L.icon({
         iconUrl: "assets/img/user_icon.png",
         iconSize: [30, 30],
@@ -22,11 +18,9 @@ function showUserPosition() {
         .addTo(map)
         .bindPopup("Vous êtes ici.");
 
-      // Centrer la carte sur la position de l'utilisateur
       map.setView([latitude, longitude], 15);
     },
     (error) => {
-      // Gérer les erreurs de géolocalisation
       switch (error.code) {
         case error.PERMISSION_DENIED:
           alert("Permission de localisation refusée.");

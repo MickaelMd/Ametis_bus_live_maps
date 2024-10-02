@@ -5,14 +5,11 @@ const cheerio = require("cheerio"); // Outil pour manipuler le DOM HTML côté s
 const fs = require("fs"); // Module pour manipuler le système de fichiers
 const path = require("path"); // Module pour travailler avec les chemins de fichiers et de répertoires
 
-// Initialisation de l'application Express
 const app = express();
-const PORT = 3000; // Définition du port sur lequel le serveur écoutera
+const PORT = 3000; // Définition du port du serveur
 
-// Configuration pour servir des fichiers statiques à partir du répertoire courant
 app.use(express.static(path.join(__dirname)));
 
-// Route pour la page d'accueil
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
@@ -83,7 +80,6 @@ app.get("/scrapeDelays", async (req, res) => {
   }
 });
 
-// Lance le serveur sur le port défini et affiche un message de confirmation
 app.listen(PORT, () => {
   console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
 });
