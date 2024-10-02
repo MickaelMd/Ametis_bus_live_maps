@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/MickaelMd/Ametis_bus_live_maps/blob/main/assets/img/bus_icon.png?raw=true" alt="enter image description here">
+  <img src="https://github.com/MickaelMd/Ametis_bus_live_maps/blob/main/thumbnail.jpg?raw=true"  height="300" alt="enter image description here">
 </p>
 
 Ce projet est un prototype d'application web de visualisation en temps réel des données de transport public du réseau [Ametis](https://www.ametis.fr/),  utilisant Node.js avec une carte interactive basée sur la bibliothèque Leaflet et des données issues de scraping provenant de sources publiques.
