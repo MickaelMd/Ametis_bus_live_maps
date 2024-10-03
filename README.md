@@ -17,4 +17,12 @@ L'application se compose de plusieurs fonctionnalités clés :
 4.  **Gestion des retards des bus** : L'application scrape également les données de retards des bus, ce qui permet d'afficher des estimations des retards pour chaque bus. Si aucune donnée de retard n'est disponible, un message indiquant "Retard estimé : Non disponible" est affiché.
     
 5. **Mise à jour en temps réel** : Les informations des bus sont mises à jour manuellement en appuyant sur un bouton. Cela déclenche un nouveau scraping des données et les met à jour sur la carte.
-    
+
+
+
+
+---
+
+<p align="center">
+:heavy_exclamation_mark: Si cela ne fonctionne pas, vérifiez la récupération ou la structure des fichiers JSON. :heavy_exclamation_mark:
+</p>
