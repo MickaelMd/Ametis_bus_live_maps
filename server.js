@@ -1,12 +1,12 @@
 // Importation des modules nécessaires
-const express = require("express"); // Framework pour créer le serveur web
-const axios = require("axios"); // Bibliothèque pour effectuer des requêtes HTTP
-const cheerio = require("cheerio"); // Outil pour manipuler le DOM HTML côté serveur, comme jQuery
-const fs = require("fs"); // Module pour manipuler le système de fichiers
-const path = require("path"); // Module pour travailler avec les chemins de fichiers et de répertoires
+const express = require("express");
+const axios = require("axios");
+const cheerio = require("cheerio");
+const fs = require("fs");
+const path = require("path");
 
 const app = express();
-const PORT = 3000; // Définition du port du serveur
+const PORT = 3000;
 
 app.use(express.static(path.join(__dirname)));
 

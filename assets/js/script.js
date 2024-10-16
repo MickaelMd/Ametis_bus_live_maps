@@ -134,7 +134,6 @@ async function loadBusData() {
               ? `assets/img/${bus.vehicle.trip.route_id}.png`
               : defaultIconUrl;
 
-          // Vérification et correction des erreurs d'icône
           let icon = L.icon({
             iconUrl: routeIconUrl,
             iconSize: [30, 30],
@@ -151,7 +150,6 @@ async function loadBusData() {
           const busTimestamp = parseInt(bus.vehicle.timestamp, 10);
           let timeDifference = currentTimestamp - busTimestamp;
 
-          // Calculer les minutes et secondes écoulées
           let minutes = Math.floor(timeDifference / 60);
           let seconds = timeDifference % 60;
 
